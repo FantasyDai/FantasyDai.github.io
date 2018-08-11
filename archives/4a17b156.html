@@ -681,8 +681,8 @@
             repo: 'fantasydai.github.io',
             clientID: '54de178e2500271235bc',
             clientSecret: 'a915ca1f5504c29971c6802dbc45e6ecac6fb7ce',
-            admin: 'fantasydai',
-            id: ''
+            admin: ['fantasydai'],
+            id: decodeURI(location.pathname)
             
             });
         gitalk.render('gitalk-container');
