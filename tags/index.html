@@ -564,7 +564,7 @@
             clientID: '54de178e2500271235bc',
             clientSecret: 'a915ca1f5504c29971c6802dbc45e6ecac6fb7ce',
             admin: ['fantasydai'],
-            id: decodeURI(location.pathname)
+            id: md5(window.location.pathname),
             
             });
         gitalk.render('gitalk-container');
