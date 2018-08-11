@@ -549,6 +549,29 @@
 
 
 
+<!-- LOCAL: You can save these files to your site and update links -->
+  
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<!-- END LOCAL -->
+    
+      <script type="text/javascript">
+      function renderGitalk(){
+        var gitalk = new Gitalk({
+            owner: 'fantasydai',
+            repo: 'fantasydai.github.io',
+            clientID: '54de178e2500271235bc',
+            clientSecret: 'a915ca1f5504c29971c6802dbc45e6ecac6fb7ce',
+            admin: 'fantasydai',
+            id: ''
+            
+            });
+        gitalk.render('gitalk-container');
+      }
+      renderGitalk();
+      </script>
+    
+
 
 
 
